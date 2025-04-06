@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.recyclerviewsearchtutorial.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    // Recycler View Search View
     lateinit var binding: ActivityMainBinding
     val user_list = listOf(
         User(1, "Mallangi"),
